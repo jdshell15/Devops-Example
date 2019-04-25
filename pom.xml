@@ -43,8 +43,8 @@
 		</dependency>
 
 	</dependencies>
-	<build>
-		<finalName>Devops Example</finalName>
+<build>
+		<finalName>auto-ci</finalName>
 		<pluginManagement>
 			<plugins>
 				<!-- Tomcat Maven Plugin  -->
@@ -62,7 +62,7 @@
 						<server>maven</server>
 						<!-- what path to deploy to tomcat, then would be 
 							available at your.aws.ip:8080/example  -->
-						<path>/DevopsExample</path>
+						<path>/example</path>
 					</configuration>
 				</plugin>
 			</plugins>
